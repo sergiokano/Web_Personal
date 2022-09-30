@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Pongo el link de boxicons para usar su material en el CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Malatesta</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav_logo">
+            <img
+              src="img/logo_circulo_blanco.png"
+              alt="Malatesta"
+              class="logo_img"
+          /></a>
+        </div>
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#home" class="nav_link active">Home</a>
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link">Biografía</a>
+            </li>
+            <li class="nav_item">
+              <a href="#skills" class="nav_link">Malatesta news</a>
+            </li>
+            <li class="nav_item">
+              <a href="#portfolio" class="nav_link">Portfolio</a>
+            </li>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link">Contacto</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav_toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+    <main class="l-main">
+      <!-- home -->
+      <section class="home section" id="home">
+        <div class="home_container bd-grid">
+          <h1 class="home_title">
+            <span
+              >MA <br />
+              LA <br />
+              TES <br />
+              TA //</span
+            ><br />
+          </h1>
+
+          <div class="home_scroll">
+            <a href="#about" class="home_scroll-link"
+              ><i class="bx bx-up-arrow-alt"></i>Scroll down</a
+            >
+          </div>
+          <img
+            src="img/malatesta_black2.jpg"
+            alt="Malatesta"
+            class="home_img"
+          />
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="about section" id="about">
+        <h2 class="section-title">Biografía</h2>
+        <div class="about_container bd-grid">
+          <div class="about_img">
+            <img src="img/Shoot MT sobreexpose-65.jpg" alt="Malatesta" />
+          </div>
+          <div>
+            <h2 class="about_subtitle">Malatesta</h2>
+            <span class="about_explanation">Perreo triste desde Valencia </span> <br>
+            <p class="about_text">
+              Malatesta nace en septiembre de 2020 con “Cuelgo del hilo”, el
+              primer single que salió a la luz tras varios meses encerrados en
+              el estudio componiendo y creando la marca de Malatesta.
+              Autogestionado y autoproducido por Gioca y Hernae, dos productores
+              y guitarristas que coincidieron en el instituto. Tras varios años
+              soñando con montar una banda juntos y desarrollándose
+              profesionalmente en el mundo de la música por caminos distintos
+              decidieron pasar a la acción. Habían cumplido sus sueños de tocar
+              en los festivales que siempre habían querido y colaborar con
+              artistas que habían admirado en la adolescencia. Fue entonces
+              cuando decidieron trabajar en algo propio, componiendo mano a mano
+              en el estudio y creando lo que meses más tarde sería Malatesta.
+              Rodeados de un equipo de personas comprometidas con el proyecto
+              definieron cada detalle estético y musical de Malatesta. Héctor H.
+              Lázaro dirigiendo los videoclips, Julia Jwibel en el arte y
+              creación de la marca, Paola Barrigavé en la fotografía, Laura Such
+              en el estilismo son las principales personas que forman parte de
+              Malatesta fuera del escenario.
+            </p>
+            <div class="about_social">
+              <a href="https://open.spotify.com/artist/4Ka2IqSgczTV3uAR3yEl3Q?si=PFdUbv0eTZyvGHxbs4vTXg" class="about_social-icon"
+                ><i class="bx bxl-spotify"></i
+              ></a>
+              <a href="https://www.instagram.com/malatestamala/" class="about_social-icon"
+                ><i class="bx bxl-instagram"></i
+              ></a>
+              <a href="https://www.youtube.com/channel/UCk3yEUNS3Mx2cvS180SWoBg" class="about_social-icon"
+                ><i class="bx bxl-youtube"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- skills -->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Malatesta news</h2>
+        <div class="skills_container bd-grid">
+          <div class="skills_box">
+            <h3 class="skills_subtitle">Conciertos</h3>
+            <span class="skills_name"><a href="https://dice.fm/artist/malatesta-8ap7v">Valencia, 7 de mayo 2022</a></span>
+            <span class="skills_name"><a href="https://dice.fm/artist/malatesta-8ap7v">Madrid, 10 de diciembre 2022</a></span>
+
+            <h3 class="skills_subtitle">Nuevos lanzamientos</h3>
+            <span class="skills_name"><a href="https://open.spotify.com/track/4KOS0TecNlzAPqH3UQrpFa?si=666e2a09ab354dc4">Pre-save "Veneno pa dar"</a></span>
+          </div>
+          <div class="skills_img">
+            <a href="https://dice.fm/artist/malatesta-8ap7v"><img src="img/cartel_la3 concierto.jpg" alt="" /> </a>
+          </div>
+        </div>
+      </section>
+      <!-- Porfolio -->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section-title">Música</h2>
+        <div class="portfolio_container bd-grid">
+          <!-- hago un div para cada foto -->
+          <div class="portfolio_img">
+            <img src="img/portadas cuadradas/CUELGO DEL HILO PORTADA_Malatesta.jpg" alt="" />
+
+            <div class="portfolio_link">
+              <a href="https://www.youtube.com/watch?v=sA4FJgfvbpg" class="portfolio_link-name">Pulsa para escuchar</a>
+            </div>
+          </div>
+
+          <div class="portfolio_img">
+            <img src="img/portadas cuadradas/Portada-MeMueraYo.jpg" alt="" />
+
+            <div class="portfolio_link">
+              <a href="https://www.youtube.com/watch?v=4Iu8_dc76L4" class="portfolio_link-name">Pulsa para escuchar</a>
+            </div>
+          </div>
+
+          <div class="portfolio_img">
+            <img src="img/portadas cuadradas/portada_LANOCHEENTERA_VERSIONpresave_baja calidad.jpg" alt="" />
+
+            <div class="portfolio_link">
+              <a href="https://www.youtube.com/watch?v=-DBpInxF7BE" class="portfolio_link-name">Pulsa para escuchar</a>
+            </div>
+          </div>
+
+          <div class="portfolio_img">
+            <img src="img/portadas cuadradas/Portada El makinon_VERSIONFINAL.png" alt="" />
+
+            <div class="portfolio_link">
+              <a href="https://www.youtube.com/watch?v=U4JrQpI9Jh0" class="portfolio_link-name">Pulsa para escuchar</a>
+            </div>
+          </div>
+
+          <div class="portfolio_img">
+            <img src="img/portadas cuadradas/Portada Sorry But no.jpg" alt="" />
+
+            <div class="portfolio_link">
+              <a href="https://www.youtube.com/watch?v=pnF3UIzXZAw" class="portfolio_link-name">Pulsa para escuchar</a>
+            </div>
+          </div>
+
+          <div class="portfolio_img">
+            <img src="img/portadas cuadradas/Portada_Bien Jodido.jpg" alt="" />
+
+            <div class="portfolio_link">
+              <a href="https://www.youtube.com/watch?v=qFXJLRD3Ghg" class="portfolio_link-name">Pulsa para escuchar</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contacto</h2>
+        <div class="contact_container bd-grid">
+          <div class="contact_info">
+            <!-- Contact options -->
+            <h3 class="contact_subtitle">Email</h3>
+            <span class="contact_text">malatesta@management.com</span>
+
+            <h3 class="contact_subtitle">Teléfono
+            </h3>
+            <span class="contact_text">+34 616 232 616 (Booking) <br> +34 612 323 612 (Management) </span>
+
+            <h3 class="contact_subtitle">Dirección</h3>
+            <span class="contact_text">Valencia, España</span>
+          </div>
+
+          <form action="" class="contact_form">
+            <div class="contact_inputs">
+              <input
+                type="text"
+                placeholder="Nombre"
+                class="contact_input"
+              />
+              <input
+                type="email"
+                placeholder="Email"
+                class="contact_input"
+              />
+            </div>
+            <textarea
+              name=""
+              id=""
+              placeholder="Escribe tu mensaje aquí..."
+              cols="30"
+              rows="10"
+              class="contact_input"
+            ></textarea>
+
+            <input type="submit" value="Enviar" class="contact_button" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer section">
+      <div class="footer_container bd-grid">
+        <div class="footer_data">
+          <h2 class="footer_title">Malatesta</h2>
+          <p class="footer_text">perreo triste is my passion</p>
+        </div>
+        <div class="footer_data">
+          <h2 class="footer_title">Explorar</h2>
+          <ul>
+            <li><a href="#home" class="footer_link">Home</a></li>
+            <li><a href="#about" class="footer_link">Bio</a></li>
+            <li><a href="#skills" class="footer_link">Skills</a></li>
+            <li><a href="#portfolio" class="footer_link">Música</a></li>
+            <li><a href="#contact" class="footer_link">Contacto</a></li>
+          </ul>
+        </div>
+        <!-- Follow info -->
+        <div class="footer_data">
+          <h2 class="footer_title">Follow</h2>
+          <a href="https://open.spotify.com/artist/4Ka2IqSgczTV3uAR3yEl3Q?si=PFdUbv0eTZyvGHxbs4vTXg" class="footer_social-icon"
+            ><i class="bx bxl-spotify"></i
+          ></a>
+          <a href="https://www.instagram.com/malatestamala/" class="footer_social-icon"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://www.youtube.com/channel/UCk3yEUNS3Mx2cvS180SWoBg" class="footer_social-icon"
+            ><i class="bx bxl-youtube"></i
+          ></a>
+        </div>
+        <div class="footer_copyright">
+          © 2022 MALATESTA. Todos los derechos reservados. <br>_ web designed by 44theKan0xxX _
+        </div>
+      </div>
+    </footer>
+    <!-- Scroll Reveal is applied here from https://scrollrevealjs.org/ -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- JavaScript -->
+    <!-- <script src="js/script.js"></script> -->
+  </body>
+</html>
