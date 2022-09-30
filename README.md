@@ -7,12 +7,15 @@ La web es una landing page de un grupo de música con su correspondiente informa
 
 El proyecto está pensado para reproducirse en navegadores como Chrome, Brave, Mozilla entre otros. En Internet Explorer podría dar problemas.
 
-### Visuales 🔧
+### Visuales 🎬
 ![gif](https://github.com/sergiokano/Web_Personal/blob/main/gif/1.gif)
+
 
 ![gif](https://github.com/sergiokano/Web_Personal/blob/main/gif/2.gif)
 
+
 ![gif](https://github.com/sergiokano/Web_Personal/blob/main/gif/3.gif)
+
 
 ## Construido con 🛠️
 
